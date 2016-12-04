@@ -1,0 +1,11 @@
+:host {
+    display: block;
+    z-index: 1;
+}
+
+.wa-header {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.24), 0 0 4px rgba(0, 0, 0, 0.12);
+}

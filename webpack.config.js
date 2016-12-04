@@ -1,15 +1,17 @@
+var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: {
-        'app': './src/app.ts'
+        'app': './src/main.ts',
+        'vendor': './src/vendor.ts',
+        'polyfills': './src/polyfills.ts'
     },
 
     devtool: 'source-map',
 
     output: {
-        path: 'build',
-        filename: '[name].js',
+        filename: 'build/[name].js',
         chunkFilename: '[id].chunk.js'
     },
 
@@ -21,22 +23,33 @@ module.exports = {
         preLoaders: [
             {
                 test: /\.ts$/,
-                loader: "tslint"
+                loader: 'tslint'
             }
         ],
         loaders: [
             {
                 test: /\.ts$/,
-                loaders: ['awesome-typescript-loader']
+                loaders: ['awesome-typescript-loader', 'angular2-template-loader']
+            },
+            {
+                test: /\.html$/,
+                loader: 'html'
             },
             {
                 test: /\.css$/,
-                loader: 'style!raw'
+                loader: 'raw'
+            },
+            {
+                test: /\.json$/,
+                loader: 'json'
             }
         ],
     },
 
     plugins: [
+        new webpack.optimize.CommonsChunkPlugin({
+            name: ['app', 'vendor', 'polyfills']
+        }),
         new HtmlWebpackPlugin({
             template: 'src/index.html'
         })
@@ -50,6 +63,6 @@ module.exports = {
     tslint: {
         emitErrors: false,
         failOnHint: false,
-        formattersDirectory: "node_modules/tslint-loader/formatters/",
+        formattersDirectory: 'node_modules/tslint-loader/formatters/',
     }
 }

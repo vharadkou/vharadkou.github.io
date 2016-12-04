@@ -1,4 +1,4 @@
-export const mockWeatherData = {
+{
     "message": "accurate",
     "cod": "200",
     "count": 50,
@@ -11,31 +11,31 @@ export const mockWeatherData = {
                 "lat": 53.913891
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288213,
+            "dt": 1480889019,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -47,31 +47,31 @@ export const mockWeatherData = {
                 "lat": 53.900002
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288357,
+            "dt": 1480889242,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -83,31 +83,31 @@ export const mockWeatherData = {
                 "lat": 53.946388
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288358,
+            "dt": 1480889243,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -119,31 +119,31 @@ export const mockWeatherData = {
                 "lat": 53.883331
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288358,
+            "dt": 1480889243,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -155,31 +155,31 @@ export const mockWeatherData = {
                 "lat": 53.965832
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288358,
+            "dt": 1480889244,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -191,31 +191,31 @@ export const mockWeatherData = {
                 "lat": 53.96389
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288359,
+            "dt": 1480889244,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -227,31 +227,31 @@ export const mockWeatherData = {
                 "lat": 53.850555
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288359,
+            "dt": 1480889245,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -263,31 +263,31 @@ export const mockWeatherData = {
                 "lat": 53.833328
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288359,
+            "dt": 1480889245,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -299,31 +299,31 @@ export const mockWeatherData = {
                 "lat": 53.985832
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288360,
+            "dt": 1480889246,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -335,31 +335,31 @@ export const mockWeatherData = {
                 "lat": 53.993057
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288360,
+            "dt": 1480889246,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -371,31 +371,31 @@ export const mockWeatherData = {
                 "lat": 53.833328
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288360,
+            "dt": 1480889246,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -407,31 +407,31 @@ export const mockWeatherData = {
                 "lat": 53.826942
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288360,
+            "dt": 1480889247,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -443,31 +443,31 @@ export const mockWeatherData = {
                 "lat": 53.883888
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288361,
+            "dt": 1480889247,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -479,31 +479,31 @@ export const mockWeatherData = {
                 "lat": 54.033333
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288361,
+            "dt": 1480889248,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -515,31 +515,31 @@ export const mockWeatherData = {
                 "lat": 53.7812
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288361,
+            "dt": 1480889248,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -551,31 +551,31 @@ export const mockWeatherData = {
                 "lat": 53.872292
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288362,
+            "dt": 1480889249,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -587,31 +587,31 @@ export const mockWeatherData = {
                 "lat": 53.79768
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288362,
+            "dt": 1480889249,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -623,31 +623,31 @@ export const mockWeatherData = {
                 "lat": 54.055557
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288362,
+            "dt": 1480889250,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -659,31 +659,31 @@ export const mockWeatherData = {
                 "lat": 53.789165
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288363,
+            "dt": 1480889250,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -695,31 +695,31 @@ export const mockWeatherData = {
                 "lat": 53.96764
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288363,
+            "dt": 1480889252,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -731,31 +731,31 @@ export const mockWeatherData = {
                 "lat": 53.783333
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288363,
+            "dt": 1480889254,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -767,31 +767,31 @@ export const mockWeatherData = {
                 "lat": 53.770557
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288364,
+            "dt": 1480889254,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -803,31 +803,31 @@ export const mockWeatherData = {
                 "lat": 53.736969
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288364,
+            "dt": 1480889255,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -839,31 +839,31 @@ export const mockWeatherData = {
                 "lat": 54.091667
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288364,
+            "dt": 1480889255,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -875,31 +875,31 @@ export const mockWeatherData = {
                 "lat": 53.753056
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288365,
+            "dt": 1480889256,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -911,31 +911,31 @@ export const mockWeatherData = {
                 "lat": 54.116669
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288365,
+            "dt": 1480889255,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -947,31 +947,31 @@ export const mockWeatherData = {
                 "lat": 53.982609
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288365,
+            "dt": 1480889256,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -983,31 +983,31 @@ export const mockWeatherData = {
                 "lat": 53.726112
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288366,
+            "dt": 1480889258,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1019,31 +1019,31 @@ export const mockWeatherData = {
                 "lat": 54.147221
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288366,
+            "dt": 1480889257,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1055,31 +1055,31 @@ export const mockWeatherData = {
                 "lat": 54
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288366,
+            "dt": 1480889257,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1091,31 +1091,31 @@ export const mockWeatherData = {
                 "lat": 53.700001
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288367,
+            "dt": 1480889259,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1127,31 +1127,31 @@ export const mockWeatherData = {
                 "lat": 54.173058
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288367,
+            "dt": 1480889259,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1163,31 +1163,31 @@ export const mockWeatherData = {
                 "lat": 53.996109
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288368,
+            "dt": 1480889260,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1199,31 +1199,31 @@ export const mockWeatherData = {
                 "lat": 54.183334
             },
             "main": {
-                "temp": -3.67,
-                "temp_min": -3.67,
-                "temp_max": -3.67,
-                "pressure": 987.84,
-                "sea_level": 1009.71,
-                "grnd_level": 987.84,
-                "humidity": 81
+                "temp": -12.38,
+                "temp_min": -12.38,
+                "temp_max": -12.38,
+                "pressure": 1016.18,
+                "sea_level": 1039.11,
+                "grnd_level": 1016.18,
+                "humidity": 76
             },
-            "dt": 1480288368,
+            "dt": 1480889261,
             "wind": {
-                "speed": 1.69,
-                "deg": 291.501
+                "speed": 3.32,
+                "deg": 301.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1235,31 +1235,31 @@ export const mockWeatherData = {
                 "lat": 53.691113
             },
             "main": {
-                "temp": 0.05,
-                "temp_min": 0.05,
-                "temp_max": 0.05,
-                "pressure": 991.08,
-                "sea_level": 1009.59,
-                "grnd_level": 991.08,
-                "humidity": 96
+                "temp": -9.66,
+                "temp_min": -9.66,
+                "temp_max": -9.66,
+                "pressure": 1020.56,
+                "sea_level": 1040,
+                "grnd_level": 1020.56,
+                "humidity": 83
             },
-            "dt": 1480288368,
+            "dt": 1480889261,
             "wind": {
-                "speed": 1.44,
-                "deg": 287.501
+                "speed": 3.47,
+                "deg": 306.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 76
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 803,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1271,31 +1271,31 @@ export const mockWeatherData = {
                 "lat": 53.676388
             },
             "main": {
-                "temp": 0.05,
-                "temp_min": 0.05,
-                "temp_max": 0.05,
-                "pressure": 991.08,
-                "sea_level": 1009.59,
-                "grnd_level": 991.08,
-                "humidity": 96
+                "temp": -9.66,
+                "temp_min": -9.66,
+                "temp_max": -9.66,
+                "pressure": 1020.56,
+                "sea_level": 1040,
+                "grnd_level": 1020.56,
+                "humidity": 83
             },
-            "dt": 1480288369,
+            "dt": 1480889262,
             "wind": {
-                "speed": 1.44,
-                "deg": 287.501
+                "speed": 3.47,
+                "deg": 306.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 76
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 803,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1307,31 +1307,31 @@ export const mockWeatherData = {
                 "lat": 54.210835
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288369,
+            "dt": 1480889192,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1343,31 +1343,31 @@ export const mockWeatherData = {
                 "lat": 53.659168
             },
             "main": {
-                "temp": 0.05,
-                "temp_min": 0.05,
-                "temp_max": 0.05,
-                "pressure": 991.08,
-                "sea_level": 1009.59,
-                "grnd_level": 991.08,
-                "humidity": 96
+                "temp": -9.66,
+                "temp_min": -9.66,
+                "temp_max": -9.66,
+                "pressure": 1020.56,
+                "sea_level": 1040,
+                "grnd_level": 1020.56,
+                "humidity": 83
             },
-            "dt": 1480288369,
+            "dt": 1480889263,
             "wind": {
-                "speed": 1.44,
-                "deg": 287.501
+                "speed": 3.47,
+                "deg": 306.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 76
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 803,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1379,31 +1379,31 @@ export const mockWeatherData = {
                 "lat": 54.232498
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288370,
+            "dt": 1480889263,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1415,31 +1415,31 @@ export const mockWeatherData = {
                 "lat": 53.639721
             },
             "main": {
-                "temp": 0.05,
-                "temp_min": 0.05,
-                "temp_max": 0.05,
-                "pressure": 991.08,
-                "sea_level": 1009.59,
-                "grnd_level": 991.08,
-                "humidity": 96
+                "temp": -9.66,
+                "temp_min": -9.66,
+                "temp_max": -9.66,
+                "pressure": 1020.56,
+                "sea_level": 1040,
+                "grnd_level": 1020.56,
+                "humidity": 83
             },
-            "dt": 1480288370,
+            "dt": 1480889263,
             "wind": {
-                "speed": 1.44,
-                "deg": 287.501
+                "speed": 3.47,
+                "deg": 306.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 76
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 803,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1451,31 +1451,31 @@ export const mockWeatherData = {
                 "lat": 54.25111
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288371,
+            "dt": 1480889264,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1487,31 +1487,31 @@ export const mockWeatherData = {
                 "lat": 53.621113
             },
             "main": {
-                "temp": 0.05,
-                "temp_min": 0.05,
-                "temp_max": 0.05,
-                "pressure": 991.08,
-                "sea_level": 1009.59,
-                "grnd_level": 991.08,
-                "humidity": 96
+                "temp": -9.66,
+                "temp_min": -9.66,
+                "temp_max": -9.66,
+                "pressure": 1020.56,
+                "sea_level": 1040,
+                "grnd_level": 1020.56,
+                "humidity": 83
             },
-            "dt": 1480288371,
+            "dt": 1480889264,
             "wind": {
-                "speed": 1.44,
-                "deg": 287.501
+                "speed": 3.47,
+                "deg": 306.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 76
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 803,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1523,31 +1523,31 @@ export const mockWeatherData = {
                 "lat": 54.277222
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288371,
+            "dt": 1480889265,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1559,31 +1559,31 @@ export const mockWeatherData = {
                 "lat": 53.599998
             },
             "main": {
-                "temp": 0.05,
-                "temp_min": 0.05,
-                "temp_max": 0.05,
-                "pressure": 991.08,
-                "sea_level": 1009.59,
-                "grnd_level": 991.08,
-                "humidity": 96
+                "temp": -9.66,
+                "temp_min": -9.66,
+                "temp_max": -9.66,
+                "pressure": 1020.56,
+                "sea_level": 1040,
+                "grnd_level": 1020.56,
+                "humidity": 83
             },
-            "dt": 1480288372,
+            "dt": 1480889265,
             "wind": {
-                "speed": 1.44,
-                "deg": 287.501
+                "speed": 3.47,
+                "deg": 306.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 76
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 803,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1595,24 +1595,24 @@ export const mockWeatherData = {
                 "lat": 53.807529
             },
             "main": {
-                "temp": -2.38,
-                "temp_min": -2.38,
-                "temp_max": -2.38,
-                "pressure": 986.3,
-                "sea_level": 1009.47,
-                "grnd_level": 986.3,
-                "humidity": 89
+                "temp": -8.38,
+                "temp_min": -8.38,
+                "temp_max": -8.38,
+                "pressure": 1014.15,
+                "sea_level": 1038.62,
+                "grnd_level": 1014.15,
+                "humidity": 90
             },
-            "dt": 1480288372,
+            "dt": 1480889266,
             "wind": {
-                "speed": 1.44,
-                "deg": 248.001
+                "speed": 3.87,
+                "deg": 319.502
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 68
+                "all": 64
             },
             "weather": [
                 {
@@ -1631,31 +1631,31 @@ export const mockWeatherData = {
                 "lat": 53.998348
             },
             "main": {
-                "temp": -3.05,
-                "temp_min": -3.05,
-                "temp_max": -3.05,
-                "pressure": 988.16,
-                "sea_level": 1010,
-                "grnd_level": 988.16,
-                "humidity": 84
+                "temp": -9.53,
+                "temp_min": -9.53,
+                "temp_max": -9.53,
+                "pressure": 1016.5,
+                "sea_level": 1039.43,
+                "grnd_level": 1016.5,
+                "humidity": 82
             },
-            "dt": 1480288373,
+            "dt": 1480889266,
             "wind": {
-                "speed": 2.51,
-                "deg": 334.001
+                "speed": 3.42,
+                "deg": 298.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 88
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 804,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "overcast clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1667,31 +1667,31 @@ export const mockWeatherData = {
                 "lat": 53.519348
             },
             "main": {
-                "temp": 0.05,
-                "temp_min": 0.05,
-                "temp_max": 0.05,
-                "pressure": 991.08,
-                "sea_level": 1009.59,
-                "grnd_level": 991.08,
-                "humidity": 96
+                "temp": -9.66,
+                "temp_min": -9.66,
+                "temp_max": -9.66,
+                "pressure": 1020.56,
+                "sea_level": 1040,
+                "grnd_level": 1020.56,
+                "humidity": 83
             },
-            "dt": 1480288373,
+            "dt": 1480888976,
             "wind": {
-                "speed": 1.44,
-                "deg": 287.501
+                "speed": 3.47,
+                "deg": 306.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 76
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 803,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1703,31 +1703,31 @@ export const mockWeatherData = {
                 "lat": 53.599998
             },
             "main": {
-                "temp": 0.05,
-                "temp_min": 0.05,
-                "temp_max": 0.05,
-                "pressure": 991.08,
-                "sea_level": 1009.59,
-                "grnd_level": 991.08,
-                "humidity": 96
+                "temp": -9.66,
+                "temp_min": -9.66,
+                "temp_max": -9.66,
+                "pressure": 1020.56,
+                "sea_level": 1040,
+                "grnd_level": 1020.56,
+                "humidity": 83
             },
-            "dt": 1480288373,
+            "dt": 1480889266,
             "wind": {
-                "speed": 1.44,
-                "deg": 287.501
+                "speed": 3.47,
+                "deg": 306.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 76
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 803,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1739,31 +1739,31 @@ export const mockWeatherData = {
                 "lat": 54.311668
             },
             "main": {
-                "temp": -2.27,
-                "temp_min": -2.27,
-                "temp_max": -2.27,
-                "pressure": 986.3,
-                "sea_level": 1010.48,
-                "grnd_level": 986.3,
-                "humidity": 95
+                "temp": -10.68,
+                "temp_min": -10.68,
+                "temp_max": -10.68,
+                "pressure": 1013.34,
+                "sea_level": 1038.78,
+                "grnd_level": 1013.34,
+                "humidity": 72
             },
-            "dt": 1480288374,
+            "dt": 1480889267,
             "wind": {
-                "speed": 4.09,
-                "deg": 352.001
+                "speed": 3.07,
+                "deg": 285.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 64
+                "all": 20
             },
             "weather": [
                 {
-                    "id": 803,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         },
@@ -1775,31 +1775,31 @@ export const mockWeatherData = {
                 "lat": 53.583332
             },
             "main": {
-                "temp": 0.05,
-                "temp_min": 0.05,
-                "temp_max": 0.05,
-                "pressure": 991.08,
-                "sea_level": 1009.59,
-                "grnd_level": 991.08,
-                "humidity": 96
+                "temp": -9.66,
+                "temp_min": -9.66,
+                "temp_max": -9.66,
+                "pressure": 1020.56,
+                "sea_level": 1040,
+                "grnd_level": 1020.56,
+                "humidity": 83
             },
-            "dt": 1480288374,
+            "dt": 1480889268,
             "wind": {
-                "speed": 1.44,
-                "deg": 287.501
+                "speed": 3.47,
+                "deg": 306.002
             },
             "sys": {
                 "country": ""
             },
             "clouds": {
-                "all": 76
+                "all": 24
             },
             "weather": [
                 {
-                    "id": 803,
+                    "id": 801,
                     "main": "Clouds",
-                    "description": "broken clouds",
-                    "icon": "04n"
+                    "description": "few clouds",
+                    "icon": "02n"
                 }
             ]
         }

@@ -1,0 +1,1 @@
+export { CitiesInfoComponent } from './cities-info-component';

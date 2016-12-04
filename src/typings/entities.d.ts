@@ -1,4 +1,4 @@
-declare namespace weather {
+declare namespace wa.entities {
     interface ICitiesInfos {
         message: string;
         cod: string;
