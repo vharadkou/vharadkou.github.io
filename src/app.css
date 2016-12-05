@@ -1,11 +1,6 @@
 html,
 body {
-    height: 100%;
     margin: 0;
-}
-
-#map {
-    flex: 1;
 }
 
 .weather-app {
@@ -18,4 +13,10 @@ body {
     margin: 0 0 0 50px;
     color: red;
     font-size: 20px;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }

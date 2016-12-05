@@ -5,7 +5,8 @@ import { HttpModule } from '@angular/http';
 import {
     HeaderComponent,
     FooterComponent,
-    MapComponent
+    MapComponent,
+    CitiesTableComponent
 } from './components';
 
 import { CitiesInfoComponent } from './containers';
@@ -23,7 +24,8 @@ import 'style!./app.css';
         CitiesInfoComponent,
         HeaderComponent,
         FooterComponent,
-        MapComponent
+        MapComponent,
+        CitiesTableComponent
     ],
     providers: [WeatherService],
     bootstrap: [CitiesInfoComponent]

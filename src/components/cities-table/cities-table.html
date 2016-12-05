@@ -1,0 +1,20 @@
+<div class="wa-cities-table">
+    <h1 class="wa-cities-table__header">Weather by city</h1>
+
+    <div class="wa-table">
+        <div class="wa-table__header">
+            <div class="wa-table__row-item" *ngFor="let header of tableHeaders">{{header.value}}</div>
+        </div>
+        <div class="wa-table__row" *ngFor="let row of citiesInfos">
+            <div class="wa-table__row-item">{{row.city}}</div>
+            <div class="wa-table__row-item">{{row.lat}}</div>
+            <div class="wa-table__row-item">{{row.lng}}</div>
+            <div class="wa-table__row-item">{{row.temperature}}</div>
+            <div class="wa-table__row-item">{{row.humidity}}</div>
+            <div class="wa-table__row-item">{{row.pressure}}</div>
+            <div class="wa-table__row-item">{{row.windDegree}}</div>
+            <div class="wa-table__row-item">{{row.windSpeed}}</div>
+            <div class="wa-table__row-item">{{row.clouds}}</div>
+        </div>
+    </div>
+</div>

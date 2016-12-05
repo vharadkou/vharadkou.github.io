@@ -1,0 +1,53 @@
+:host {
+    display: block;
+}
+
+.wa-cities-table__header {
+    padding: 0 15px;
+}
+
+.wa-table {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.wa-table__header {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0 15px;
+    background-color: #FFEEDB;
+    font-weight: bold;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.24), 0 0 10px rgba(0, 0, 0, 0.24);
+}
+
+.wa-table__row {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.wa-table__row:hover {
+    background-color: rgba(255, 238, 219, 0.5)
+}
+
+.wa-table__row-item {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    flex-basis: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    padding: 0.5em;
+    word-break: break-word;
+}
