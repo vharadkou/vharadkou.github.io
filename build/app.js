@@ -28,9 +28,9 @@ webpackJsonp([0],{
 	var platform_browser_1 = __webpack_require__(21);
 	var http_1 = __webpack_require__(24);
 	var components_1 = __webpack_require__(25);
-	var containers_1 = __webpack_require__(38);
-	var services_1 = __webpack_require__(41);
-	__webpack_require__(374);
+	var containers_1 = __webpack_require__(42);
+	var services_1 = __webpack_require__(45);
+	__webpack_require__(378);
 	var AppModule = (function () {
 	    function AppModule() {
 	    }
@@ -44,7 +44,8 @@ webpackJsonp([0],{
 	                containers_1.CitiesInfoComponent,
 	                components_1.HeaderComponent,
 	                components_1.FooterComponent,
-	                components_1.MapComponent
+	                components_1.MapComponent,
+	                components_1.CitiesTableComponent
 	            ],
 	            providers: [services_1.WeatherService],
 	            bootstrap: [containers_1.CitiesInfoComponent]
@@ -68,6 +69,7 @@ webpackJsonp([0],{
 	__export(__webpack_require__(26));
 	__export(__webpack_require__(30));
 	__export(__webpack_require__(34));
+	__export(__webpack_require__(38));
 
 
 /***/ },
@@ -117,14 +119,14 @@ webpackJsonp([0],{
 /***/ 28:
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"wa-header\">\r\n    <h1> Weather map </h1>\r\n</div>";
+	module.exports = "<div class=\"wa-header\">\r\n    <h1> Weather app </h1>\r\n</div>";
 
 /***/ },
 
 /***/ 29:
 /***/ function(module, exports) {
 
-	module.exports = ":host {\r\n    display: block;\r\n    z-index: 1;\r\n}\r\n\r\n.wa-header {\r\n    display: flex;\r\n    align-items: center;\r\n    padding: 0 10px;\r\n    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.24), 0 0 4px rgba(0, 0, 0, 0.12);\r\n}"
+	module.exports = ":host {\r\n    display: block;\r\n    z-index: 1;\r\n}\r\n\r\n.wa-header {\r\n    display: flex;\r\n    align-items: center;\r\n    padding: 0 15px;\r\n    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.24), 0 0 4px rgba(0, 0, 0, 0.12);\r\n}"
 
 /***/ },
 
@@ -292,7 +294,7 @@ webpackJsonp([0],{
 /***/ 37:
 /***/ function(module, exports) {
 
-	module.exports = ":host {\r\n    flex: 1;\r\n    display: flex;\r\n}\r\n\r\n.wa-map {\r\n    flex: 1;\r\n}"
+	module.exports = ":host {\r\n    flex: 1;\r\n    display: flex;\r\n    height: 500px;\r\n}\r\n\r\n.wa-map {\r\n    flex: 1;\r\n}"
 
 /***/ },
 
@@ -300,25 +302,13 @@ webpackJsonp([0],{
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	function __export(m) {
-	    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-	}
-	__export(__webpack_require__(39));
+	var cities_table_component_1 = __webpack_require__(39);
+	exports.CitiesTableComponent = cities_table_component_1.CitiesTableComponent;
 
 
 /***/ },
 
 /***/ 39:
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	var cities_info_component_1 = __webpack_require__(40);
-	exports.CitiesInfoComponent = cities_info_component_1.CitiesInfoComponent;
-
-
-/***/ },
-
-/***/ 40:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -332,7 +322,83 @@ webpackJsonp([0],{
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
 	var core_1 = __webpack_require__(3);
-	var services_1 = __webpack_require__(41);
+	var CitiesTableComponent = (function () {
+	    function CitiesTableComponent() {
+	    }
+	    __decorate([
+	        core_1.Input(), 
+	        __metadata('design:type', Array)
+	    ], CitiesTableComponent.prototype, "citiesInfos", void 0);
+	    __decorate([
+	        core_1.Input(), 
+	        __metadata('design:type', Array)
+	    ], CitiesTableComponent.prototype, "tableHeaders", void 0);
+	    CitiesTableComponent = __decorate([
+	        core_1.Component({
+	            selector: 'wa-cities-table',
+	            template: __webpack_require__(40),
+	            styles: [__webpack_require__(41)]
+	        }), 
+	        __metadata('design:paramtypes', [])
+	    ], CitiesTableComponent);
+	    return CitiesTableComponent;
+	}());
+	exports.CitiesTableComponent = CitiesTableComponent;
+
+
+/***/ },
+
+/***/ 40:
+/***/ function(module, exports) {
+
+	module.exports = "<div class=\"wa-cities-table\">\r\n    <h1 class=\"wa-cities-table__header\">Weather by city</h1>\r\n\r\n    <div class=\"wa-table\">\r\n        <div class=\"wa-table__header\">\r\n            <div class=\"wa-table__row-item\" *ngFor=\"let header of tableHeaders\">{{header.value}}</div>\r\n        </div>\r\n        <div class=\"wa-table__row\" *ngFor=\"let row of citiesInfos\">\r\n            <div class=\"wa-table__row-item\">{{row.city}}</div>\r\n            <div class=\"wa-table__row-item\">{{row.lat}}</div>\r\n            <div class=\"wa-table__row-item\">{{row.lng}}</div>\r\n            <div class=\"wa-table__row-item\">{{row.temperature}}</div>\r\n            <div class=\"wa-table__row-item\">{{row.humidity}}</div>\r\n            <div class=\"wa-table__row-item\">{{row.pressure}}</div>\r\n            <div class=\"wa-table__row-item\">{{row.windDegree}}</div>\r\n            <div class=\"wa-table__row-item\">{{row.windSpeed}}</div>\r\n            <div class=\"wa-table__row-item\">{{row.clouds}}</div>\r\n        </div>\r\n    </div>\r\n</div>";
+
+/***/ },
+
+/***/ 41:
+/***/ function(module, exports) {
+
+	module.exports = ":host {\r\n    display: block;\r\n}\r\n\r\n.wa-cities-table__header {\r\n    padding: 0 15px;\r\n}\r\n\r\n.wa-table {\r\n    font-size: 1rem;\r\n    line-height: 1.5rem;\r\n    margin-top: 0rem;\r\n    margin-bottom: 1.5rem;\r\n    display: flex;\r\n    flex-flow: column nowrap;\r\n    justify-content: space-between;\r\n    line-height: 1.5;\r\n    cursor: pointer;\r\n}\r\n\r\n.wa-table__header {\r\n    width: 100%;\r\n    display: flex;\r\n    flex-flow: row nowrap;\r\n    padding: 0 15px;\r\n    background-color: #FFEEDB;\r\n    font-weight: bold;\r\n    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.24), 0 0 10px rgba(0, 0, 0, 0.24);\r\n}\r\n\r\n.wa-table__row {\r\n    width: 100%;\r\n    display: flex;\r\n    flex-flow: row nowrap;\r\n    padding: 0 15px;\r\n    border-bottom: 1px solid #e8e8e8;\r\n}\r\n\r\n.wa-table__row:hover {\r\n    background-color: rgba(255, 238, 219, 0.5)\r\n}\r\n\r\n.wa-table__row-item {\r\n    display: flex;\r\n    flex-flow: row nowrap;\r\n    flex-grow: 1;\r\n    flex-basis: 0;\r\n    word-wrap: break-word;\r\n    overflow-wrap: break-word;\r\n    word-break: break-all;\r\n    padding: 0.5em;\r\n    word-break: break-word;\r\n}"
+
+/***/ },
+
+/***/ 42:
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	function __export(m) {
+	    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+	}
+	__export(__webpack_require__(43));
+
+
+/***/ },
+
+/***/ 43:
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var cities_info_component_1 = __webpack_require__(44);
+	exports.CitiesInfoComponent = cities_info_component_1.CitiesInfoComponent;
+
+
+/***/ },
+
+/***/ 44:
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+	    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+	    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+	    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+	    return c > 3 && r && Object.defineProperty(target, key, r), r;
+	};
+	var __metadata = (this && this.__metadata) || function (k, v) {
+	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+	};
+	var core_1 = __webpack_require__(3);
+	var services_1 = __webpack_require__(45);
 	var CitiesInfoComponent = (function () {
 	    function CitiesInfoComponent(weatherService) {
 	        this.weatherService = weatherService;
@@ -352,6 +418,30 @@ webpackJsonp([0],{
 	                            infoText: "<div>" + city.name + " " + city.main.temp + "&#8451;</div>"
 	                        };
 	                    });
+	                    _this.citiesInfos = info.list.map(function (city) {
+	                        return {
+	                            city: city.name,
+	                            lat: city.coord.lat,
+	                            lng: city.coord.lon,
+	                            temperature: city.main.temp,
+	                            humidity: city.main.humidity,
+	                            pressure: city.main.pressure,
+	                            windDegree: city.wind.deg,
+	                            windSpeed: city.wind.speed,
+	                            clouds: city.clouds.all
+	                        };
+	                    });
+	                    _this.tableHeaders = [
+	                        { name: 'city', value: 'City' },
+	                        { name: 'lat', value: 'Latitude' },
+	                        { name: 'lng', value: 'Longitude' },
+	                        { name: 'temperature', value: 'Temperature' },
+	                        { name: 'humidity', value: 'Humidity' },
+	                        { name: 'pressure', value: 'Pressure' },
+	                        { name: 'windDegree', value: 'Wind degree' },
+	                        { name: 'windSpeed', value: 'Wind speed' },
+	                        { name: 'clouds', value: 'Clouds' },
+	                    ];
 	                });
 	            });
 	        }
@@ -361,8 +451,8 @@ webpackJsonp([0],{
 	    CitiesInfoComponent = __decorate([
 	        core_1.Component({
 	            selector: 'cities-info',
-	            template: __webpack_require__(372),
-	            styles: [__webpack_require__(373)]
+	            template: __webpack_require__(376),
+	            styles: [__webpack_require__(377)]
 	        }), 
 	        __metadata('design:paramtypes', [services_1.WeatherService])
 	    ], CitiesInfoComponent);
@@ -373,19 +463,19 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 41:
+/***/ 45:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	function __export(m) {
 	    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 	}
-	__export(__webpack_require__(42));
+	__export(__webpack_require__(46));
 
 
 /***/ },
 
-/***/ 42:
+/***/ 46:
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -400,8 +490,8 @@ webpackJsonp([0],{
 	};
 	var core_1 = __webpack_require__(3);
 	var http_1 = __webpack_require__(24);
-	var rxjs_1 = __webpack_require__(43);
-	var weatherData = __webpack_require__(371);
+	var rxjs_1 = __webpack_require__(47);
+	var weatherData = __webpack_require__(375);
 	var WeatherService = (function () {
 	    function WeatherService(http) {
 	        this.http = http;
@@ -425,7 +515,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 371:
+/***/ 375:
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -2238,30 +2328,30 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 372:
+/***/ 376:
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"cities-info\">\r\n    <wa-header></wa-header>\r\n\r\n    <wa-map [position]=\"position\" [markers]=\"markers\"></wa-map>\r\n\r\n    <wa-footer></wa-footer>\r\n</div>";
+	module.exports = "<div class=\"cities-info\">\r\n    <wa-header></wa-header>\r\n\r\n    <wa-cities-table [citiesInfos]=\"citiesInfos\" [tableHeaders]=\"tableHeaders\"></wa-cities-table>\r\n\r\n    <wa-map [position]=\"position\" [markers]=\"markers\"></wa-map>\r\n\r\n    <wa-footer></wa-footer>\r\n</div>";
 
 /***/ },
 
-/***/ 373:
+/***/ 377:
 /***/ function(module, exports) {
 
 	module.exports = ":host {\r\n    display: block;\r\n    height: 100%;\r\n}\r\n\r\n.cities-info {\r\n    height: 100%;\r\n    display: flex;\r\n    flex-direction: column;\r\n}"
 
 /***/ },
 
-/***/ 374:
+/***/ 378:
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(375);
+	var content = __webpack_require__(379);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(376)(content, {});
+	var update = __webpack_require__(380)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -2279,14 +2369,14 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 375:
+/***/ 379:
 /***/ function(module, exports) {
 
-	module.exports = "html,\r\nbody {\r\n    height: 100%;\r\n    margin: 0;\r\n}\r\n\r\n#map {\r\n    flex: 1;\r\n}\r\n\r\n.weather-app {\r\n    display: flex;\r\n    flex-direction: column;\r\n    height: 100%;\r\n}\r\n\r\n.weather-app__map-errors {\r\n    margin: 0 0 0 50px;\r\n    color: red;\r\n    font-size: 20px;\r\n}"
+	module.exports = "html,\r\nbody {\r\n    margin: 0;\r\n}\r\n\r\n.weather-app {\r\n    display: flex;\r\n    flex-direction: column;\r\n    height: 100%;\r\n}\r\n\r\n.weather-app__map-errors {\r\n    margin: 0 0 0 50px;\r\n    color: red;\r\n    font-size: 20px;\r\n}\r\n\r\n* {\r\n    -moz-box-sizing: border-box;\r\n    -webkit-box-sizing: border-box;\r\n    box-sizing: border-box;\r\n}"
 
 /***/ },
 
-/***/ 376:
+/***/ 380:
 /***/ function(module, exports, __webpack_require__) {
 
 	/*

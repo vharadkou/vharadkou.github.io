@@ -3,9 +3,9 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: {
-        'app': './src/main.ts',
         'vendor': './src/vendor.ts',
-        'polyfills': './src/polyfills.ts'
+        'polyfills': './src/polyfills.ts',
+        'app': './src/main.ts',
     },
 
     devtool: 'source-map',
