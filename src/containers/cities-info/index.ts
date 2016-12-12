@@ -1,1 +1,1 @@
-export { CitiesInfoComponent } from './cities-info-component';
+export { CitiesInfoComponent } from './cities-info.component';
