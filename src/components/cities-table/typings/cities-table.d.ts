@@ -1,6 +1,6 @@
 declare namespace wa.components.citiesTable {
-    interface ICitiyInfo {
-        city: string;
+    interface ICity {
+        name: string;
         lat: number;
         lng: number;
         temperature: number;
@@ -9,6 +9,8 @@ declare namespace wa.components.citiesTable {
         windDegree: number;
         windSpeed: number;
         clouds: number;
+        icon: string;
+        weatherDescription: string;
     }
 
     interface ITableHeader {

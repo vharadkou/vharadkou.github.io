@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Http, Response } from '@angular/http';
+import { Http, Response, RequestOptionsArgs, URLSearchParams } from '@angular/http';
 
 import { Observable } from 'rxjs';
 
@@ -17,7 +17,13 @@ export class WeatherService {
             return Observable.of(weatherData);
         }
 
-        return this.http.get(`${this.weatherApi}?lat=${position.coords.latitude}&lon=${position.coords.longitude}&cnt=${citiesCount}&appid=a8f5a2be89e408a117d1cbf534303578&units=metric`)
-            .map(r => r.json());
+        let params = new URLSearchParams();
+        params.set('lat', position.coords.latitude.toString());
+        params.set('lon', position.coords.longitude.toString());
+        params.set('cnt', citiesCount.toString());
+        params.set('appid', 'a8f5a2be89e408a117d1cbf534303578');
+        params.set('units', 'metric');
+
+        return this.http.get(`${this.weatherApi}`, { search: params }).map(r => r.json());
     }
 }

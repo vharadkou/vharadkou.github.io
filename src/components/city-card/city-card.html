@@ -1,0 +1,8 @@
+<div class="city-card">
+    <div class="city-card__title">{{cityInfo.name}}</div>
+    <div class="city-card__description">{{cityInfo.weatherDescription}}</div>
+    <div class="city-card__weather">
+        <img class="city-card__img" src="http://openweathermap.org/img/w/{{cityInfo.icon}}.png">
+        <div class="city-card__temperature">{{cityInfo.temperature | number : '1.1-1'}} °C</div>
+    </div>
+</div>

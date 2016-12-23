@@ -1,6 +1,10 @@
 <div class="cities-info">
     <wa-header></wa-header>
 
+    <div>
+        <wa-city-card *ngFor="let cityInfo of citiesInfos" [cityInfo]="cityInfo" class="cities-info__card"></wa-city-card>
+    </div>
+
     <wa-cities-table [citiesInfos]="citiesInfos" [tableHeaders]="tableHeaders"></wa-cities-table>
 
     <wa-map [position]="position" [markers]="markers"></wa-map>

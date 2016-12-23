@@ -1,0 +1,43 @@
+:host {
+    display: block;
+}
+
+.city-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24), 0 0 4px rgba(0, 0, 0, 0.12);
+    transition: box-shadow .4s cubic-bezier(.25, .8, .25, 1), background-color .4s cubic-bezier(.25, .8, .25, 1);
+}
+
+.city-card:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.24), 0 0 5px rgba(0, 0, 255, 1);
+}
+
+.city-card__title {
+    padding: 10px;
+    font-size: 24px;
+}
+
+.city-card__description {
+    margin: 0 10px;
+    text-transform: capitalize;
+    color: #505050;
+}
+
+.city-card__weather {
+    display: flex;
+    align-items: center;
+}
+
+.city-card__img {
+    width: 40px;
+    margin: 0 5px;
+}
+
+.city-card__temperature {
+    margin: 10px;
+    background-color: antiquewhite;
+    border-radius: 3px;
+    padding: 5px;
+}

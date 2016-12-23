@@ -6,7 +6,8 @@ import {
     HeaderComponent,
     FooterComponent,
     MapComponent,
-    CitiesTableComponent
+    CitiesTableComponent,
+    CityCardComponent
 } from './components';
 
 import { CitiesInfoComponent } from './containers';
@@ -25,7 +26,8 @@ import 'style!./app.css';
         HeaderComponent,
         FooterComponent,
         MapComponent,
-        CitiesTableComponent
+        CitiesTableComponent,
+        CityCardComponent
     ],
     providers: [WeatherService],
     bootstrap: [CitiesInfoComponent]

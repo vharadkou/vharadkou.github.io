@@ -12,7 +12,7 @@ export class CitiesInfoComponent implements OnInit {
     public position: wa.map.IMapPosition;
     public markers: wa.map.IMarker[];
 
-    public citiesInfos: wa.components.citiesTable.ICitiyInfo[];
+    public citiesInfos: wa.components.citiesTable.ICity[];
     public tableHeaders: wa.components.citiesTable.ITableHeader[];
 
     public constructor(private weatherService: WeatherService) { }
@@ -35,7 +35,7 @@ export class CitiesInfoComponent implements OnInit {
 
                     this.citiesInfos = info.list.map(city => {
                         return {
-                            city: city.name,
+                            name: city.name,
                             lat: city.coord.lat,
                             lng: city.coord.lon,
                             temperature: city.main.temp,
@@ -43,7 +43,9 @@ export class CitiesInfoComponent implements OnInit {
                             pressure: city.main.pressure,
                             windDegree: city.wind.deg,
                             windSpeed: city.wind.speed,
-                            clouds: city.clouds.all
+                            clouds: city.clouds.all,
+                            icon: city.weather[0].icon,
+                            weatherDescription: city.weather[0].description
                         };
                     });
 

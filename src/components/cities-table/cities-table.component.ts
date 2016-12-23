@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
     styleUrls: ['./cities-table.css']
 })
 export class CitiesTableComponent {
-    @Input() public citiesInfos: wa.components.citiesTable.ICitiyInfo[];
+    @Input() public citiesInfos: wa.components.citiesTable.ICity[];
     @Input() public tableHeaders: wa.components.citiesTable.ITableHeader[];
 
     public constructor() {
